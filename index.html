@@ -65,5 +65,11 @@
             .attr('x', 30)
             .attr('y', 20);
     </script>
+
+    <script>
+      d3.csv("/test.csv").then(function(data) {
+      console.log(data);
+      });
+    </script>
   </body>
 </html>
